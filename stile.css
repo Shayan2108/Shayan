@@ -17,7 +17,7 @@ header{
 }
 h1{
     align-items: center;
-    font-size: 4vw;
+    font-size: 3vw;
     color: black;
     font-family: "Libre Baskerville", serif;
     
@@ -43,6 +43,9 @@ h1{
    .container{
 
        grid-template-columns: repeat(auto-fit, minmax(170px, auto)); 
+   }
+   h1{
+    font-size: 8vw;
    }
 }
 @media ( max-width: 1024px) and (min-width : 768px)
@@ -94,6 +97,6 @@ a{
     text-decoration: none;
 }
 div:hover{
-    /* box-shadow: 5px 5px 20px green,-5px -5px 20px green,5px -5px 20px green,-5px 5px 20px green; */
     transform: scale(1.05); 
 }
+
