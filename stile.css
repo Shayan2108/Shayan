@@ -46,7 +46,6 @@ strong{
     background-color: transparent;
     align-items: center;
     justify-content: space-around;
-    overflow-y: hidden;
 
 }
 @media ( max-width: 767px)
