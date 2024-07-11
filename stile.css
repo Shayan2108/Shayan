@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     top: 0px;
 
 
