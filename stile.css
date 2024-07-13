@@ -69,7 +69,9 @@ strong{
    .container{
 
        grid-template-columns: repeat(auto-fit, minmax(200px, auto)); 
-       margin-top: 2vh;
+   }
+   header{
+    margin-bottom: 2vh;
    }
 }
 @media ( min-width: 1025px)
@@ -80,7 +82,10 @@ strong{
        
    }
    body{
-    overflow: hidden;
+    overflow: auto;
+   }
+   header{
+    margin-bottom: 2vh;
    }
 
 }
@@ -116,6 +121,8 @@ div:hover{
    div:hover{
     box-shadow: 5px 5px 20px green,-5px -5px 20px green,5px -5px 20px green,-5px 5px 20px green;
    }
+   
+   
 }
 @media ( max-width: 767px)
 {
