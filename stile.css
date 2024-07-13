@@ -17,7 +17,6 @@ header{
     align-items: center;
     position: relative;
     top: 0px;
-    margin-bottom: 20px;
 
 
 }
@@ -59,7 +58,10 @@ strong{
     font-size: 8vw;
    }
    strong{
-    font-size: 30px;
+    font-size: 35px;
+   }
+   header{
+    margin-bottom: 20px;
    }
 }
 @media ( max-width: 1024px) and (min-width : 768px)
