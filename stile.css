@@ -73,6 +73,9 @@ strong{
    header{
     margin-bottom: 2vh;
    }
+   h1{
+    font-size: 5vw;
+   }
 }
 @media ( min-width: 1025px)
 {
