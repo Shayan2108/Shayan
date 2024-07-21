@@ -76,6 +76,9 @@ strong{
    h1{
     font-size: 5vw;
    }
+   strong{
+    font-size: 32px;
+   }
 }
 @media ( min-width: 1025px)
 {
