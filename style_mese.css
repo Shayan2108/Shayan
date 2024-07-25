@@ -22,7 +22,7 @@ header{
 section{
     display: flex;
     flex-direction: row;
-    height: 84vh;
+    height: 100%;
     position: relative;
     right:2px;
 }
