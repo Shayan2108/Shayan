@@ -6,6 +6,7 @@ body{
     background-color: #6ecb3e;
     margin: 0px;
 }
+
 header{
     width: 100%;
     height: 100px;
@@ -76,11 +77,24 @@ list-style-position: inside;
 font-size: 15.5px;
 margin-right: 10px;
 list-style-type: none;
-
+}
+button{
+    font-family: "Noto Nastaliq Urdu", serif;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 10px;
+    list-style-type: none;
+    background-color: #3a922f;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
 }
 @media(min-width : 768px){
 .box ul li {
     font-size: 29px;
+}
+button{
+    font-size: 17px;
 }
 }
 .hawala{
@@ -100,4 +114,8 @@ border-radius: 20px;
 }
 .elenco{
 padding-bottom: 15px;
+}
+.testo2,
+.testo4{
+    display: none;
 }

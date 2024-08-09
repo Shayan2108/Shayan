@@ -38,11 +38,23 @@
                         <li>انفرادی کوشش کا حلقہ 11:20 تا 12:00 (40منٹ)
                         ● </li>
                         <li style="text-align: end;">اعلانات●</li>
-                        <li style="text-align: end;">اعلان عصر</li>
-                        <li>آپ کے علاقے میں نیکی کی دعوت عام کرنے کے لئے آپ کی مدد درکار ہے برائے کرم دُعا کے بعد تشریف رکھیے اور ڈھیروں ثواب کمائیے </li>
-                        <li style="text-align: end;">اعلان فجر مغرب</li>
+                       <li style="text-align: end;"><button class="button1">اٹالین  میں اعلان</button><span style="color: #53A548;">-</span> اعلان عصر</li>
+                       <div class="testo1">
+                       <li>آپ کے علاقے میں نیکی کی دعوت عام کرنے کے لئے آپ کی مدد درکار ہے برائے کرم دُعا کے بعد تشریف رکھیے اور ڈھیروں ثواب کمائیے </li>
+                       </div>
+                       <div class="testo2">
+                            <li>Per diffondere l'invito al bene nella vostra zona è necessario il vostro aiuto. Per favore, rimanete dopo il Dua e guadagnate molte ricompense.
+                            </li>
+                       </div>
+                       <li style="text-align: end;"><button class="button2">اٹالین  میں اعلان</button><span style="color: #53A548;">-</span>اعلان فجر مغرب</li>
+                       <div class="testo3">
                         <li>میٹھے میٹھے اسلامی بھائیو! ابھی نماز کے    فورا بعد إِنْ شَاءَ اللہ عَزَّ وَجَلَّ سنتوں بھرا      بیان ہوگا تشریف رکھیے اور ڈھیروں ثواب      کمائیے                                                        
-                         </li>
+                        </li>
+                    </div>
+                        <div class="testo4">
+                            <li>miei cari fratelli islamici! immediatamente dopo la preghiera,ci sarà un discorso religioso restate e guadagnate tante riconpense</li>
+
+                        </div>
                         <li>سنتیں سکھانے کا حلقہ ●<br>(30منٹ) 12:00 تا12:30   
                          </li>
                         <li><a href="links/link copy 107.html" class="hawala">ناخن حجامت موئے بغل وغیرہ سے متعلق سنتیں اور آداب<br>نیک بننے اور بناے کے طریقے سے صفحہ 589</a></li>
@@ -60,21 +72,60 @@
                         <li><a href="links/link copy 4.html" class="hawala">نیکی کی دعوت کے فضائل پر بیان ہو
                        <br>  نیک بننے اور بناے کے طریقے سے صفحہ 328
                          </a></li>
-                        <li>علاقائی دورہ برائے نیکی کی دعوت 
-                          عصر تا مغرب کا درس
-                        ● </li>
-                        <li><a href="links/link copy 5.html" class="hawala">نیک بننے اور بناے کے طریقے سے صفحہ 379</a></li>
-                        <li>وقفہ طعام ●</li>
-                        <li>مغرب  تا عشاء کھانا کھائیں</li>
-                        <li>بعد عشاء درس
-                   ●  </li> 
-                        <li>کیسٹ بیان ●</li>
-                        <li>دہرائی کا حلقہ ●</li>
-                        <li class="sistematore">صلوۃ التوبہ،نیک اعمال کا رسالہ ●<br> سورہ ملک سننے کے بعد وقفہ آرام۔</li>
-                 </ul>
-             </div>
-             </div>
-         </div>
-     </section>
- </body>
+                       <li>علاقائی دورہ برائے نیکی کی دعوت 
+                         عصر تا مغرب کا درس
+                       ● </li>
+                       <li><a href="links/link copy 5.html" class="hawala">نیک بننے اور بناے کے طریقے سے صفحہ 379</a></li>
+                       <li>وقفہ طعام ●</li>
+                       <li>مغرب  تا عشاء کھانا کھائیں</li>
+                       <li>بعد عشاء درس
+                  ●  </li>
+                  <li> فیضان سنت سے 7 منٹ درس</li>
+                       <li>کیسٹ بیان ●</li>
+                       <li>دہرائی کا حلقہ ●</li>
+                       <li class="sistematore">صلوۃ التوبہ،نیک اعمال کا رسالہ ●<br> سورہ ملک سننے کے بعد وقفہ آرام۔</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let testo1 = document.getElementsByClassName('testo1')[0]
+        let testo2 = document.getElementsByClassName('testo2')[0]
+        let testo3 = document.getElementsByClassName('testo3')[0]
+        let testo4 = document.getElementsByClassName('testo4')[0]
+        let button1 = document.querySelector('.button1');
+        let button2 = document.querySelector('.button2');
+        let contatore1 = 0;
+        let contatore2 = 0;
+        button1.addEventListener('click',function(){
+            
+            if(contatore1 % 2 == 0)
+        {
+
+            testo1.style.display ="none";
+            testo2.style.display ="block";
+        }
+                else{
+                    testo1.style.display ="block";
+                    testo2.style.display ="none"; 
+                }
+                contatore1++;
+        });
+        button2.addEventListener('click',function(){
+            
+            if(contatore2 % 2 == 0)
+        {
+
+            testo3.style.display ="none";
+            testo4.style.display ="block";
+        }
+                else{
+                    testo3.style.display ="block";
+                    testo4.style.display ="none"; 
+                }
+                contatore2++;
+        });
+    </script>
+</body>
 </html>

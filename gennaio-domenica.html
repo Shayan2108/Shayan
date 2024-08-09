@@ -78,5 +78,43 @@
             </div>
         </div>
     </section>
+    <script>
+        let testo1 = document.getElementsByClassName('testo1')[0]
+        let testo2 = document.getElementsByClassName('testo2')[0]
+        let testo3 = document.getElementsByClassName('testo3')[0]
+        let testo4 = document.getElementsByClassName('testo4')[0]
+        let button1 = document.querySelector('.button1');
+        let button2 = document.querySelector('.button2');
+        let contatore1 = 0;
+        let contatore2 = 0;
+        button1.addEventListener('click',function(){
+            
+            if(contatore1 % 2 == 0)
+        {
+
+            testo1.style.display ="none";
+            testo2.style.display ="block";
+        }
+                else{
+                    testo1.style.display ="block";
+                    testo2.style.display ="none"; 
+                }
+                contatore1++;
+        });
+        button2.addEventListener('click',function(){
+            
+            if(contatore2 % 2 == 0)
+        {
+
+            testo3.style.display ="none";
+            testo4.style.display ="block";
+        }
+                else{
+                    testo3.style.display ="block";
+                    testo4.style.display ="none"; 
+                }
+                contatore2++;
+        });
+    </script>
 </body>
 </html>
